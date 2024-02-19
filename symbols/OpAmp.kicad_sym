@@ -16,17 +16,17 @@
       (effects (font (size 1.27 1.27)))
     )
     (symbol "LM358N_0_0"
-      (pin power_in line (at 8 -10 90) (length 2.5)
+      (pin power_in line (at 7.5 -10 90) (length 2.5)
         (name "GND" (effects (font (size 2.5 2.5))))
         (number "4" (effects (font (size 2.5 2.5))))
       )
-      (pin power_in line (at 8 5 270) (length 2.5)
+      (pin power_in line (at 7.5 5 270) (length 2.5)
         (name "VCC" (effects (font (size 2.5 2.5))))
         (number "8" (effects (font (size 2.5 2.5))))
       )
     )
     (symbol "LM358N_1_0"
-      (pin output line (at 16 -2.5 180) (length 2.5)
+      (pin output line (at 15 -2.5 180) (length 2.5)
         (name "OUT" (effects (font (size 2.5 2.5))))
         (number "1" (effects (font (size 2.5 2.5))))
       )
@@ -43,7 +43,7 @@
       (polyline
         (pts
           (xy 2.5 2.5)
-          (xy 13.5 -2.5)
+          (xy 12.5 -2.5)
         )
         (stroke (width 0) (type default))
         (fill (type none))
@@ -74,23 +74,23 @@
       )
       (polyline
         (pts
-          (xy 8 -5)
-          (xy 8 -7.5)
+          (xy 7.5 -5)
+          (xy 7.5 -7.5)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 8 2.5)
-          (xy 8 0)
+          (xy 7.5 2.5)
+          (xy 7.5 0)
         )
         (stroke (width 0) (type default))
         (fill (type none))
       )
       (polyline
         (pts
-          (xy 13.5 -2.5)
+          (xy 12.5 -2.5)
           (xy 2.5 -7.5)
         )
         (stroke (width 0) (type default))
